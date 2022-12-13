@@ -1,0 +1,25 @@
+{
+  "name": "s25/itin-ru",
+  "description": "Determines Russian Individual Taxpayer Identification Number, rus. ИНН, by passport data",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "S25\\ItinRu\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Konstantin Krylov",
+      "email": "crylove_const@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.0",
+    "symfony/browser-kit": "^6.0",
+    "symfony/http-client": "^6.0",
+    "symfony/css-selector": "^6.0",
+    "symfony/mime": "^6.0"
+  }
+}
